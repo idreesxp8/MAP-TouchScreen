@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map</title>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  </head>
+  <body>
+    
+    <div class="main">
+        <div class="logo">
+            <img src="./assets/images/logo.svg" >
+        </div>
+        <div class="slider-box">
+            <div class="close_btn">
+                <a href="#">
+                    <img src="./assets/images/close_btn.svg">
+                </a>
+            </div>
+            <div class="popup_slider">
+                <div class="slick-slider">
+                    <div><img src="./assets/images/img1.jpg"></div>
+                    <div><img src="./assets/images/img2.jpg"></div>
+                  </div>
+            </div>
+            <div class="slider_content_box">
+                <div class="content_heading">
+                    <h3>2</h3><h2>Bir Haddaj</h2>
+                </div>
+                <div class="overflow-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo. Praesent interdum dolor a turpis fringilla, id volutpat nibh lobortis. In id nisl euismod purus viverra aliquet.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_hotspots">
+            <div class="hotspot hotspot_1">
+                <div class="hp_numbers">
+                    <h2 class="active">1</h2>
+                    <div class="circle_B"></div>
+                </div>
+                <div class="hp_headings">
+                    <h2>معبد سالم</h2>
+                    <h2>Temple of Salm</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="direction_icon">
+            <img src="./assets/images/map-dir.png">
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/slick.js"></script>
+
+    <script>
+        $(".slick-slider").slick({
+            slidesToShow: 1,
+            infinite: true,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+            dots: false,
+        });
+    </script>
+  </body>
+</html>
