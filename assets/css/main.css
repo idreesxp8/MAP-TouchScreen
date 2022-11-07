@@ -107,9 +107,11 @@
   margin-bottom: 30px;
 }
 .logo img {
-  width: 800px;
+  width: 550px;
   position: absolute;
-  right: 250px;
+  right: 400px;
+  background-color: #692e149c;
+  padding: 70px 100px;
 }
 .hotspot {
   display: flex;
@@ -142,17 +144,37 @@
   left: 1100px;
   top: 40px;
 }
+
 .hotspot_2 {
   position: absolute;
-  right: 1000px;
+  right: 1100px;
   bottom: 650px;
 }
 .hotspot_2 .circle_B {
-  left: 83%;
+  left: 79%;
 }
 .hotspot_2 .hp_headings {
   text-align: right;
 }
+
+.hotspot_3 {
+  position: absolute;
+  right: 800px;
+  bottom: 400px;
+}
+.hotspot_3 .circle_B {
+  left: 83%;
+}
+.hotspot_3 .hp_headings {
+  text-align: right;
+}
+
+.hotspot_4 {
+  position: absolute;
+  right: 100px;
+  bottom: 630px;
+}
+
 .circle_B {
   position: absolute;
   left: 160px;
