@@ -17,7 +17,30 @@
         <div class="logo">
             <img src="./assets/images/logo.svg" >
         </div>
-        <div class="slider-box">
+        <div style="display: none;" class="slider-box temple_salm">
+            <div class="close_btn">
+                <a href="#">
+                    <img src="./assets/images/close_btn.svg">
+                </a>
+            </div>
+            <div class="popup_slider">
+                <div class="slick-slider">
+                    <div><img src="./assets/images/img1.jpg"></div>
+                    <div><img src="./assets/images/img2.jpg"></div>
+                  </div>
+            </div>
+            <div class="slider_content_box">
+                <div class="content_heading">
+                    <h3>2</h3><h2>Temple of Salm</h2>
+                </div>
+                <div class="overflow-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo. Praesent interdum dolor a turpis fringilla, id volutpat nibh lobortis. In id nisl euismod purus viverra aliquet.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et turpis lobortis, viverra elit sit amet, finibus justo.</p>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;" class="slider-box bir_hadaj">
             <div class="close_btn">
                 <a href="#">
                     <img src="./assets/images/close_btn.svg">
@@ -41,10 +64,11 @@
             </div>
         </div>
 
+
         <div class="main_hotspots">
-            <div class="hotspot hotspot_1">
+            <div id="temple_salm" class="hotspot hotspot_1">
                 <div class="hp_numbers">
-                    <h2 class="active">1</h2>
+                    <h2>1</h2>
                     <div class="circle_B"></div>
                 </div>
                 <div class="hp_headings">
@@ -53,13 +77,13 @@
                 </div>
             </div>
 
-            <div class="hotspot hotspot_2">
+            <div id="bir_hadaj" class="hotspot hotspot_2">
                 <div class="hp_headings">
                     <h2>معبد سالم</h2>
                     <h2>Temple of Salm</h2>
                 </div>
                 <div class="hp_numbers">
-                    <h2 class="active">2</h2>
+                    <h2>2</h2>
                     <div class="circle_B"></div>
                 </div>
             </div>
@@ -74,6 +98,7 @@
     <script src="./assets/js/jquery-3.6.1.min.js"></script>
     <script src="./assets/js/bootstrap.js"></script>
     <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/custom.js"></script>
 
     <script>
         $(".slick-slider").slick({
