@@ -121,6 +121,7 @@
   color: #fff;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
+  margin: 0;
 }
 .hp_numbers h2 {
   color: #fff;
@@ -131,20 +132,30 @@
   text-align: center;
   line-height: 110px;
   border-radius: 90px;
-  margin: 0 100px 0 0;
+  margin: 0 100px 0 100px;
 }
 .hp_numbers h2.active{
   background-color: #eb6f6a;
 }
 .hotspot_1 {
   position: absolute;
-  left: 1200px;
+  left: 1100px;
   top: 40px;
 }
-
+.hotspot_2 {
+  position: absolute;
+  right: 1000px;
+  bottom: 650px;
+}
+.hotspot_2 .circle_B {
+  left: 83%;
+}
+.hotspot_2 .hp_headings {
+  text-align: right;
+}
 .circle_B {
   position: absolute;
-  left: 60px;
+  left: 160px;
   bottom: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
