@@ -13,7 +13,7 @@ $(document).ready(function () {
         $('.hp_numbers h2').removeClass('active')
         $(this).find('.hp_numbers h2').addClass('active')
        
-        $('.' + element).fadeIn('slow')
+        $('.' + element).fadeIn();
         $('.' + element).addClass('active')
         $('.slick-slider').slick('refresh')
     }
@@ -27,7 +27,7 @@ $(document).ready(function () {
     var thus = $(this)
 
     if(el.hasClass('active')){
-        thus.closest('.slider-box').fadeOut('slow')
+        thus.closest('.slider-box').fadeOut()
         $('.hp_numbers h2').removeClass('active')
         $('.slider-box').removeClass('active')
         $('#slick-slider').slick('refresh')
