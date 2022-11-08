@@ -220,3 +220,48 @@
     height: 250px;
   }
 }
+
+
+
+
+@-webkit-keyframes bottom {
+  0% {
+   transform: translateY(200px);
+   opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.content_heading h3 {
+  animation-name: bottom;
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
+
+.content_heading h2 {
+  animation-name: bottom;
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-delay: 800ms;
+  animation-fill-mode: both;
+}
+
+.overflow-text {
+  animation-name: bottom;
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-fill-mode: both;
+}
+
+.popup_slider {
+  animation-name: bottom;
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
