@@ -23,8 +23,8 @@
   height: 1700px;
   background: #fff;
   position: absolute;
-  bottom: 150px;
-  left: 200px;
+  bottom: 120px;
+  left: 150px;
 }
 .close_btn img {
   width: 110px;
@@ -112,11 +112,11 @@
   margin-bottom: 30px;
 }
 .logo img {
-  width: 550px;
+  width: 900px;
   position: absolute;
-  right: 400px;
+  right: 250px;
   background-color: #692e149c;
-  padding: 70px 100px;
+  padding: 130px 200px;
 }
 .hotspot {
   display: flex;
@@ -124,7 +124,7 @@
 }
 .hp_headings h2 {
   font-family: 'Bahij_TheSansArabic-ExtraBold';
-  font-size: 80px;
+  font-size: 60px;
   text-transform: uppercase;
   color: #fff;
   -webkit-text-stroke-width: 3px;
@@ -151,17 +151,17 @@
 }
 .hotspot_1 {
   position: absolute;
-  left: 1100px;
-  top: 40px;
+  left: 1020px;
+  top: 90px;
 }
 
 .hotspot_2 {
   position: absolute;
-  right: 1100px;
-  bottom: 650px;
+  right: 1000px;
+  bottom: 750px;
 }
 .hotspot_2 .circle_B {
-  left: 79%;
+  left: 76%;
 }
 .hotspot_2 .hp_headings {
   text-align: right;
@@ -169,11 +169,11 @@
 
 .hotspot_3 {
   position: absolute;
-  right: 800px;
-  bottom: 400px;
+  right: 760px;
+  bottom: 500px;
 }
 .hotspot_3 .circle_B {
-  left: 83%;
+  left: 79%;
 }
 .hotspot_3 .hp_headings {
   text-align: right;
@@ -181,8 +181,8 @@
 
 .hotspot_4 {
   position: absolute;
-  right: 100px;
-  bottom: 630px;
+  right: 120px;
+  bottom: 720px;
 }
 
 .circle_B {
