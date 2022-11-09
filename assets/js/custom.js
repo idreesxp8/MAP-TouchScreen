@@ -1,6 +1,112 @@
 $(document).ready(function () {
 
 
+  // temple fetching images
+  var dir = "assets/images/temple/"; // folder location
+  var fileextension = ".jpg"; // image format
+  var i = "1";
+
+  $(function imageloop(){
+    $("<img />").attr('src', dir + i + fileextension ).appendTo(".temple_salm_slider");
+    if (i==3){
+      console.log('loaded');
+      $(".temple_salm_slider").slick({
+        slidesToShow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        arrows: true,
+        dots: false,
+    });
+    }
+    else{
+      i++;
+      imageloop();
+    };
+  });   
+  // fetching images end
+
+    // birhadaj fetching images
+    var dir = "assets/images/birhadaj/"; // folder location
+    var fileextension = ".jpg"; // image format
+    var i2 = "1";
+  
+    $(function imageloop(){
+      $("<img />").attr('src', dir + i2 + fileextension ).appendTo(".bir_hadaj_slider");
+      if (i2==3){
+        console.log('loaded');
+        $(".bir_hadaj_slider").slick({
+          slidesToShow: 1,
+          infinite: true,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          arrows: true,
+          dots: false,
+      });
+      }
+      else{
+        i2++;
+        imageloop();
+      };
+    });   
+    // fetching images end
+
+        // souq_slider fetching images
+        var dir = "assets/images/souq_slider/"; // folder location
+        var fileextension = ".jpg"; // image format
+        var i3 = "1";
+      
+        $(function imageloop(){
+          $("<img />").attr('src', dir + i3 + fileextension ).appendTo(".souq_slider");
+          if (i3==3){
+            console.log('loaded');
+            $(".souq_slider").slick({
+              slidesToShow: 1,
+              infinite: true,
+              slidesToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 2000,
+              arrows: true,
+              dots: false,
+          });
+          }
+          else{
+            i3++;
+            imageloop();
+          };
+        });   
+        // fetching images end
+
+
+                // palace_slider fetching images
+                var dir = "assets/images/palace_slider/"; // folder location
+                var fileextension = ".jpg"; // image format
+                var i4 = "1";
+              
+                $(function imageloop(){
+                  $("<img />").attr('src', dir + i4 + fileextension ).appendTo(".palace_slider");
+                  if (i4==3){
+                    console.log('loaded');
+                    $(".palace_slider").slick({
+                      slidesToShow: 1,
+                      infinite: true,
+                      slidesToScroll: 1,
+                      autoplay: false,
+                      autoplaySpeed: 2000,
+                      arrows: true,
+                      dots: false,
+                  });
+                  }
+                  else{
+                    i4++;
+                    imageloop();
+                  };
+                });   
+                // fetching images end
+
+
   $('.langswitch').click(function() {
     var checkeng = true;
     var checkar = false;
@@ -72,4 +178,7 @@ $(document).ready(function () {
     $('.overflow-text .ar').removeClass('active');
 
   })
-})
+
+
+ 
+});
