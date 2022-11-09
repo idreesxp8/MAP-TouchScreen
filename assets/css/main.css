@@ -265,3 +265,38 @@
   animation-timing-function: ease;
   animation-fill-mode: both;
 }
+
+
+.langswitch {
+  position: absolute;
+  width: 90px;
+  right: 20px;
+  bottom: 40px;
+}
+
+
+
+.overflow-text .ar, .overflow-text .en, .content_heading.en, .content_heading.ar {
+  display: none;
+}
+
+
+.overflow-text .en.active, .overflow-text .ar.active {
+  display: block;
+}
+.content_heading.en.active, .content_heading.ar.active {
+  display: flex;
+}
+
+.overflow-text .ar, .content_heading.ar {
+  direction: rtl;
+}
+
+.slider_content_box .content_heading.ar h3 {
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.overflow-text .ar p, .content_heading.ar > * {
+  font-family: 'Bahij_TheSansArabic-SemiBold';
+}
