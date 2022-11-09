@@ -4,11 +4,12 @@ $(document).ready(function () {
   // temple fetching images
   var dir = "assets/images/temple/"; // folder location
   var fileextension = ".jpg"; // image format
-  var i = "1";
+  var i = 1;
+  var total_images = 13;
 
   $(function imageloop(){
     $("<img />").attr('src', dir + i + fileextension ).appendTo(".temple_salm_slider");
-    if (i==3){
+    if (i==total_images){
       console.log('loaded');
       $(".temple_salm_slider").slick({
         slidesToShow: 1,
@@ -28,13 +29,14 @@ $(document).ready(function () {
   // fetching images end
 
     // birhadaj fetching images
-    var dir = "assets/images/birhadaj/"; // folder location
-    var fileextension = ".jpg"; // image format
-    var i2 = "1";
+    var dir2 = "assets/images/birhadaj/"; // folder location
+    var fileextension2 = ".jpg"; // image format
+    var i2 = 1;
+    var total_images2 = 13;
   
     $(function imageloop(){
-      $("<img />").attr('src', dir + i2 + fileextension ).appendTo(".bir_hadaj_slider");
-      if (i2==3){
+      $("<img />").attr('src', dir2 + i2 + fileextension2 ).appendTo(".bir_hadaj_slider");
+      if (i2==total_images2){
         console.log('loaded');
         $(".bir_hadaj_slider").slick({
           slidesToShow: 1,
@@ -54,13 +56,14 @@ $(document).ready(function () {
     // fetching images end
 
         // souq_slider fetching images
-        var dir = "assets/images/souq_slider/"; // folder location
-        var fileextension = ".jpg"; // image format
-        var i3 = "1";
+        var dir3 = "assets/images/souq_slider/"; // folder location
+        var fileextension3 = ".jpg"; // image format
+        var i3 = 1;
+        var total_images3 = 20;
       
         $(function imageloop(){
-          $("<img />").attr('src', dir + i3 + fileextension ).appendTo(".souq_slider");
-          if (i3==3){
+          $("<img />").attr('src', dir3 + i3 + fileextension3 ).appendTo(".souq_slider");
+          if (i3==total_images3){
             console.log('loaded');
             $(".souq_slider").slick({
               slidesToShow: 1,
@@ -81,13 +84,14 @@ $(document).ready(function () {
 
 
                 // palace_slider fetching images
-                var dir = "assets/images/palace_slider/"; // folder location
-                var fileextension = ".jpg"; // image format
-                var i4 = "1";
+                var dir4 = "assets/images/palace_slider/"; // folder location
+                var fileextension4 = ".jpg"; // image format
+                var i4 = 1;
+                var total_images4 = 6;
               
                 $(function imageloop(){
-                  $("<img />").attr('src', dir + i4 + fileextension ).appendTo(".palace_slider");
-                  if (i4==3){
+                  $("<img />").attr('src', dir4 + i4 + fileextension4 ).appendTo(".palace_slider");
+                  if (i4==total_images4){
                     console.log('loaded');
                     $(".palace_slider").slick({
                       slidesToShow: 1,
