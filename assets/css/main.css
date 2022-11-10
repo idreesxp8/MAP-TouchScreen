@@ -306,3 +306,18 @@
 .overflow-text .ar p, .content_heading.ar > * {
   font-family: 'Bahij_TheSansArabic-SemiBold';
 }
+
+.overflow-text .ar > *   {
+  animation-name: bottom;
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
+.overflow-text .en > *   {
+  animation-name: bottom;
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
