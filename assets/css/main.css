@@ -20,7 +20,7 @@
 }
 .slider-box {
   width: 1200px;
-  height: 1700px;
+  height: 1750px;
   background: #fff;
   position: absolute;
   bottom: 120px;
@@ -106,7 +106,7 @@
   width: 100%;
 }
 .overflow-text {
-  height: 400px;
+  height: 520px;
   overflow: hidden;
   overflow-y: auto;
   margin-top: 60px;
