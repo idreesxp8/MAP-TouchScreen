@@ -54,6 +54,10 @@
 .popup_slider .slick-arrow{
   background-color: transparents;
 }
+.popup_slider .slick-slide img {
+  height: 720px;
+  width: 100%;
+}
 .popup_slider .slick-next {
   position: absolute;
   top: 50%;
