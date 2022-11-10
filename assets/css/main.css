@@ -106,7 +106,7 @@
   width: 100%;
 }
 .overflow-text {
-  height: 520px;
+  height: 400px;
   overflow: hidden;
   overflow-y: auto;
   margin-top: 60px;
